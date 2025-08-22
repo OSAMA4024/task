@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'widgets/promo_card.dart';
-import 'widgets/category_item.dart'; // Add this import
-import 'widgets/recommended_item.dart'; // Add this import
+import '../widgets/promo_card.dart';
+import '../widgets/category_item.dart'; // Add this import
+import '../widgets/recommended_item.dart'; // Add this import
 
 class HomeTab extends StatelessWidget {
   const HomeTab({Key? key}) : super(key: key);

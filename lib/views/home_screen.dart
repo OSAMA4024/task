@@ -1,6 +1,7 @@
+import 'package:animation_2/views/screen/game_tab.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'home_tab.dart';
+import 'screen/home_tab.dart';
 import '../view_models/home_view_model.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -16,7 +17,8 @@ class HomeScreen extends StatelessWidget {
         index: homeViewModel.bottomIndex,
         children: const [
           HomeTab(),
-          Center(child: Text("Game Page")),
+          GameTab(),
+          //Center(child: Text("Game Page")),
           Center(child: Text("Shop Page")),
           Center(child: Text("History Page")),
           Center(child: Text("Menu Page")),
